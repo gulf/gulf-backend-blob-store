@@ -1,6 +1,6 @@
 {
   "name": "gulf-backend-blob-store",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Abstract Blob Store backend for gulf",
   "repository": {
     "type": "git",
@@ -28,7 +28,9 @@
     "presets": [
       "es2015"
     ],
-    "plugins": ["transform-runtime"]
+    "plugins": [
+      "transform-runtime"
+    ]
   },
   "devDependencies": {
     "babel-cli": "6.x",
